@@ -23,6 +23,7 @@ public class Game extends Canvas implements Runnable, KeyListener{
 	
 	public int spd = 1;
 	
+	//comentário teste
 	public Game(){
 		this.setPreferredSize(new Dimension(160,160));
 		for(int i = 0; i < nodeSnake.length; i++) {
